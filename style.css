@@ -1,0 +1,639 @@
+
+ body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;              
+  padding: 0;             
+  width: 100%;           
+  overflow-x: hidden;     
+}
+  
+
+
+
+.topo-imagem {
+  min-height: 300px;
+  background-color: #1f2933;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/12/simbolo-justica.jpg);
+  height: 530px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ text-align: center;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
+.texto-topo h1 {
+  color: #ffffff;
+  font-size: 2.3rem;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+  font-family: 'Cormorant Garamond', serif;}
+
+  
+  
+.texto-topo p {
+  color: #f1f1f1;
+  font-size: 1.1rem;
+  margin: 0;
+}.menu
+ {position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;}
+
+nav a {
+    color: white;
+    text-decoration: none;}
+
+
+nav a:hover {
+    color: white;
+    text-decoration: none;}
+
+
+
+.botoes {
+  margin-top: 80px;
+  text-align: center;}
+
+
+
+.botao {
+  padding: 8px 25px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  display: inline-block;
+  margin: 0;}
+
+
+.join {
+  background: #ffffff;
+  color: #333333;
+  border: 2px solid #ffffff;
+  margin-right: 40px; }
+
+
+.join:hover {
+  background: #eeeeee;
+  
+  border-color: #eeeeee;}
+
+
+
+.donate {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;}
+
+
+.donate:hover {
+  background: rgba(255, 255, 255, 0.2);} 
+
+
+.marlon {
+  background: transparent;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+  
+}
+
+.marlon h2 {
+  margin: 0;
+  color: #333;
+  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.icone {
+    font-size: 26px;
+}
+ 
+
+
+
+
+.topo-imagem {
+  position: relative;
+}
+
+.topo-imagem::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, transparent, #ffffff);
+  pointer-events: none;
+}
+
+.faixa-informativa {
+    display: flex;
+    background-color: white;
+    padding: 65px 8%;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item-faixa {
+    flex: 1;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+.item-faixa + .item-faixa {
+    border-left: 1px solid #b5c8dc;
+}
+
+.item-faixa span {
+    color: #7796b8;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.item-faixa h2 {
+    color: #102b50;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    margin: 12px 0;
+}
+
+.item-faixa p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.faixa-colorida {
+ width: 100vw;
+  height: 500px;
+  background-color: #08182c;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  position: relative;
+}
+
+
+  
+
+.paz-seguranca {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 25px 8%;
+    margin-top: 50px;
+    background-color: #eaf0f7;
+    border-top: 6px solid #102b50;
+    border-bottom: 4px solid #102b50;
+
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    box-sizing: border-box;
+
+}
+
+
+
+.paz-imagem {
+    flex: 1;
+}
+
+.paz-imagem img {
+    width: 620px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  position: relative;
+    left: -40px;
+}
+
+.paz-conteudo {
+    flex: 1;
+}
+
+.paz-conteudo h2 {
+    color: #102b50;
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.paz-intro {
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.paz-topicos h3 {
+    color: #173d68;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.paz-topicos p {
+    color: #555555;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+.menu a {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    transform: translateY(-6px);
+    color: #a9c9ed;
+}
+/* JUSTIÇA E DIREITOS */
+
+
+.secao-escura .titulo-secao {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 65px;
+  margin-top:-70px
+}
+
+.secao-escura .titulo-secao h2 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.secao-escura .titulo-secao p {
+    color: #bdc9d8;
+    text-align: center;
+    margin: 0;
+}
+
+.cards-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: #142d4b;
+    border: 1px solid #294968;
+    border-radius: 10px;
+    padding: 40px 30px;
+    flex: 1;
+    min-width: 230px;
+    max-width: 340px;
+    min-height: 230px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.info-card::before {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background-color: #a9c9e8;
+    margin: 0 auto 20px;
+}
+
+
+.info-card:hover {
+    transform: translateY(-8px);
+    background-color: #1b3b60;
+}
+
+.info-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    color: #a9c9e8;
+}
+
+.info-card p {
+    color: #e0e8f1;
+    line-height: 1.7;
+  position: relative;
+}
+
+.secao-conteudo.secao-escura {
+    background-color: #0b1c32;
+    color: white;
+    margin-top: 50px;
+    padding: 60px 10%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.secao-escura::before,
+
+.secao-escura::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border: 3px solid #4779a9;
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.secao-escura::before {
+    top: 20px;
+    left: 20px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.secao-escura::after {
+    bottom: 20px;
+    right: 20px;
+    border-left: none;
+    border-top: none;
+}.faixa-informativa {
+    position: relative;
+    overflow: hidden;
+}
+
+.numero-fundo {
+    position: absolute;
+    top: -65px;
+    right: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 280px;
+    font-weight: bold;
+    color: #102b50;
+    opacity: 0.06;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.item-faixa {
+    position: relative;
+    z-index: 1;
+}
+.palavras-fundo {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 130px;
+    font-weight: bold;
+    color: #102b50;
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 0;
+}
+.desafios {
+    background-color: #eaf0f7;
+    padding: 75px 8%;
+    box-sizing: border-box;
+}
+
+.desafios-cabecalho {
+    text-align: center;
+    margin-bottom: 45px;
+  margin-top: -50px;
+    margin-bottom: 45px;
+}
+
+.desafios-cabecalho span {
+    color: #7796b8;
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.desafios-cabecalho h2 {
+    color: #102b50;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.desafios-cabecalho p {
+    color: #44546a;
+    font-size: 16px;
+}
+
+.desafios-destaque {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.desafios-foto {
+    flex: 1;
+}
+
+.desafios-foto img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+   filter: grayscale(100%);
+}
+
+.desafios-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.desafios-info h3 {
+    color: #102b50;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+}
+
+.desafios-info p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.botao-desafios {
+    display: inline-block;
+    background-color: #102b50;
+    color: white;
+    text-decoration: none;
+    padding: 13px 24px;
+    margin-top: 15px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.botao-desafios:hover {
+    background-color: #7796b8;
+}
+
+.como-contribuir {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    background-color: #08182c;
+    padding: 70px 8%;
+    box-sizing: border-box;
+}
+
+.contribuir-cabecalho {
+    flex: 1;
+    text-align: left;
+}
+
+.contribuir-cabecalho span {
+    color: #7796b8;
+    font-size: 13px;
+    letter-spacing: 3px;
+   position: relative;
+   top: -100px;
+}
+
+.contribuir-cabecalho h2 {
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 600;
+  margin: -90px 0 10px;
+}
+
+.contribuir-cabecalho p {
+    color: #bdc9d8;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.contribuir-itens {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contribuir-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+}
+
+.contribuir-item span {
+    color: #7796b8;
+    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.contribuir-item h3 {
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.contribuir-item p {
+    color: #bdc9d8;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.rodape {
+    background-color: #eaf0f7;
+    color: white;
+    text-align: center;
+    padding: 55px 8% 20px;
+}
+
+.rodape h2 {
+    color: #a9c9e8;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    margin: 0;
+}
+
+.rodape h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    margin: 8px 0 15px;
+    color: #102b50;
+}
+
+.rodape > p {
+    color: #bdc9d8;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #263f5c;
+}
+
+.rodape-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: -4px 0;
+    a:hover 
+   
+}
+
+
+.rodape-links a {
+    color: #071426;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.rodape-links a:hover {
+    color: white;
+}
+
+.rodape-final {
+    border-top: 1px solid #294968;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.rodape-final p {
+    color: #7796b8;
+    font-size: 13px;
+    margin: 0;
+}
+.contribuir-destaque {
+    margin-top: 35px;
+    padding-left: 20px;
+    border-left: 2px solid #7796b8;
+}
+
+.contribuir-destaque span {
+    color: #7796b8;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    letter-spacing: 0;
+}
+
+.contribuir-destaque p {
+    color: #a9bfd8;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.4;
+    margin: -20px 0 0;
+}
